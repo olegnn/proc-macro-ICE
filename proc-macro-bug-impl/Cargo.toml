@@ -1,0 +1,18 @@
+[package]
+name = "proc-macro-bug-impl"
+version = "0.0.1"
+authors = ["olegnn <olegnosov1@gmail.com>"]
+edition = "2018"
+license = "MIT"
+
+[lib]
+name = "proc_macro_bug_impl"
+proc-macro = true
+
+[features]
+std = []
+
+[dependencies]
+proc-macro2 = "1.0.3"
+quote = "1.0.2"
+syn = "1.0"

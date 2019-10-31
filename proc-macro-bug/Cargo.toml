@@ -1,0 +1,9 @@
+[package]
+name = "proc-macro-bug"
+version = "0.0.1"
+authors = ["olegnn <olegnosov1@gmail.com>"]
+license = "MIT"
+edition = "2018"
+
+[dependencies]
+proc-macro-bug-impl = { path = "../proc-macro-bug-impl", version = "0.0.1" }

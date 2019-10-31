@@ -13,6 +13,5 @@ proc-macro = true
 std = []
 
 [dependencies]
-proc-macro2 = "1.0.3"
 quote = "1.0.2"
 syn = "1.0"
